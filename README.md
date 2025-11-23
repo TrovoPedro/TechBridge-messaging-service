@@ -1,4 +1,4 @@
-# Equilibrium Messaging Service 📨  
+# TechBridge Messaging Service 📨  
 Serviço de mensageria assíncrona baseado em RabbitMQ para integração entre microsserviços da plataforma **Equilibrium Adventure**.
 
 ---
