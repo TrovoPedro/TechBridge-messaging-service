@@ -21,6 +21,11 @@ class RabbitMQConfig {
     private lateinit var routingKey: String
 
     @Bean
+    fun filaEmail(): Queue {
+        return Queue("fila.email", true) // durable
+    }
+
+    @Bean
     fun queue(): Queue = Queue(queueName, true)
 
     @Bean
